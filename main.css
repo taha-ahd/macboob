@@ -1,0 +1,278 @@
+@font-face {
+    font-family: ubunto;
+    src: url(src/fonts//Ubuntu-Regular.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: white;
+    font-family: ubunto;
+    vertical-align: top;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 9;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 1%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #5a5a5a;
+}
+
+#home {
+    vertical-align: top;
+    position: relative;
+    bottom: 19px;
+}
+
+.main-title {
+    font-size: 3em;
+    text-align: center;
+    margin: 60px;
+
+}
+
+#top-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#top-left {
+    width: 40%;
+    padding: 2%;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#top-left img {
+    margin-bottom: 40px;
+}
+
+#top-right img {
+    margin-bottom: 40px;
+}
+
+#top-right {
+    width: 40%;
+    padding: 2%;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#middle-left {
+    width: 30%;
+    display: inline-block;
+
+}
+
+#middle-center {
+    width: 30%;
+    display: inline-block;
+
+}
+
+#middle-right {
+    width: 30%;
+    display: inline-block;
+
+}
+
+.colors div {
+
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+
+
+    margin: 2px;
+}
+
+.hr-compare {
+    border: rgb(160, 160, 160) 0.5px solid;
+    margin: 25px;
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#left-accessory {
+    width: 45%;
+    padding: 1%;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin: 12px;
+    height: 600px;
+    vertical-align: top;
+    border: #f2f2f2 solid 2px;
+    border-radius: 3px;
+}
+
+#right-accessory {
+    width: 45%;
+    height: 600px;
+    padding: 1%;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin: 12px;
+    vertical-align: top;
+    border: #f2f2f2 solid 2px;
+    border-radius: 3px;
+
+}
+
+.about-accessory {
+    padding: 8%;
+    text-align: center;
+}
+
+.about-accessory h3 {
+    font-size: 36px;
+}
+
+#man-book {
+    width: 45%;
+    background-image: url('src/man1.jpg');
+    height: 460px;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-align: center;
+
+
+
+}
+
+#woman-book {
+    width: 45%;
+    background-image: url('src/girl1.jpg');
+    height: 460px;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-align: center;
+
+}
+
+#man-book h2 {
+    margin-top: 25%;
+    font-size: 50px;
+}
+
+#man-book p {
+    margin: top 8px;
+    font-size: 18px;
+}
+
+#woman-book h2 {
+    margin-top: 25%;
+    font-size: 50px;
+}
+
+#man-book p {
+    margin: top 8px;
+    font-size: 18px;
+}
+footer{
+width: 100%;
+padding: 33px;
+background-color: #f2f2f269;
+text-align: center;
+font-weight: bold;
+font-size: 17px;
+}
+#compare .main-title{
+font-size: 66px;
+
+}
+ @media only screen and (max-width: 768px){
+*{
+text-align: center;
+vertical-align: middle;
+}
+    nav a{
+font-size: 14px;
+}
+nav{
+padding: 2px;
+}
+ .main-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 40px;
+}
+#compare .main-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 40px;
+
+}
+#top-left{
+display: block;
+width: 96%;
+}
+
+#top-right{
+    display: block;
+    width: 96%;
+    }
+#middle-left{
+    display: block;
+    width: 96%;
+}
+#middle-center{
+    display: block;
+    width: 96%;
+}
+#middle-right{
+    display: block;
+    width: 96%;
+}
+#man-book{
+    width: 96%;
+}
+#woman-book{
+    width: 96%;
+}
+#left-accessory{
+    width: 96%;
+}
+#right-accessory{
+    width: 96%;
+}
+
+
+}l
